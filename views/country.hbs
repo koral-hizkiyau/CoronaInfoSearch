@@ -1,0 +1,13 @@
+<div class="container">
+  <a href="/corona" class="btn btn-info">Back</a>
+  <div class='row'>
+    {{#each _ar}}
+      <div class="col-lg-9 border text-center m-2">
+            <h2>{{country}}</h2>
+        <h2>casesPerOneMillion: {{casesPerOneMillion}} </h2>
+        <h2>testsPerOneMillion: {{testsPerOneMillion}} </h2>
+
+      </div>
+    {{/each}}
+  </div>
+</div>
